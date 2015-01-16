@@ -21,3 +21,18 @@ CHAMPIONSHIP DETAILS
  See previous events (with latest comments)
   |
   |---> click on an event: STAGE EDIT
+
+STAGE EDIT
+ List all matches of a stage
+ If date of match is less than now, no edit possible
+ Its possible to add a comment at any time
+  |
+  |---> click OK: submit the data
+
+MANAGE CHAMPIONSHIP
+ Only available to admin
+ Features:
+  - Create teams
+  - Add championship
+  - Add team to championship
+  - Edit stages
