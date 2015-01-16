@@ -1,0 +1,46 @@
+user
+- id
+- email
+- password
+- username
+
+cp
+- id
+ -label
+
+team
+- id
+- name
+- shortname
+
+cpteam
+- cid
+- tid
+
+match
+- id
+- cid
+- stage
+- tid1
+- tid2
+- eventdate
+
+score
+- mid
+- uid
+- score1
+- score2
+- submitdate
+
+comment
+- id
+- cid
+- stage
+- publishdate
+- content
+
+result
+- cid
+- stage
+- uid
+- data (standings serialized)
