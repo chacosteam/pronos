@@ -39,8 +39,15 @@ comment
 - publishdate
 - content
 
-result
+teamstanding
 - cid
 - stage
 - uid
-- data (standings serialized)
+- data
+
+userstanding
+- cid
+- stage
+- uid
+- data
+
