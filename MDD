@@ -6,11 +6,12 @@ user
 
 cp
 - id
- -label
+- label
 
 team
 - id
-- name
+- fullname
+- cityname
 - shortname
 
 cpteam

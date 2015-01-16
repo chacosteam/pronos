@@ -1,0 +1,23 @@
+USER REGISTER
+ form to specify email, password, username
+ on submit, email sent to the user. Confirmation link used to validate the process
+
+LOGIN
+  |
+  |---> si OK: LIST CHAMPIONSHIP
+  |---> si NO: ERROR
+
+LIST CHAMPIONSHIP
+ list all championships registered by user
+ also set possibility to register to another championship
+  |
+  |---> click on championship: CHAMPIONSHIP DETAILS
+  |---> si ADMIN: MANAGE CHAMPIONSHIPS (add/modify/delete)
+
+CHAMPIONSHIP DETAILS
+ Focus on next stage (click to bet)
+ Choose next events (from list)
+ See previous events (with latest comments)
+ User standings
+  |
+  |---> click on an event: STAGE EDIT
