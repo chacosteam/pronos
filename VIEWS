@@ -1,5 +1,5 @@
 USER REGISTER
- form to specify email, password, username
+ form to specify email, password, username, benotified
  on submit, email sent to the user. Confirmation link used to validate the process
 
 LOGIN
