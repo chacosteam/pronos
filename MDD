@@ -18,6 +18,10 @@ cpteam
 - cid
 - tid
 
+cpuser
+- cid
+- uid
+
 match
 - id
 - cid
