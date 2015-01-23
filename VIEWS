@@ -11,8 +11,8 @@ LIST CHAMPIONSHIP
  list all championships registered by user
  also set possibility to register to another championship
   |
-  |---> click on championship: CHAMPIONSHIP DETAILS
-  |---> si ADMIN: MANAGE CHAMPIONSHIPS (add/modify/delete)
+  |---> click on championship: CHAMPIONSHIP DETAILS / CHAMPIONSHIP REGISTER
+  |---> si ADMIN: ADMIN
 
 CHAMPIONSHIP DETAILS
  Focus on next stage (click to bet)
@@ -22,6 +22,11 @@ CHAMPIONSHIP DETAILS
   |
   |---> click on an event: STAGE EDIT
 
+CHAMPIONSHIP REGISTER
+ A simple click allows to register to a championship
+  |
+  |---> Click on register: feedback that confirms the process
+
 STAGE EDIT
  List all matches of a stage
  If date of match is less than now, no edit possible
@@ -29,10 +34,25 @@ STAGE EDIT
   |
   |---> click OK: submit the data
 
-MANAGE CHAMPIONSHIP
+ADMIN
  Only available to admin
  Features:
-  - Create teams
+  - Manage teams
   - Add championship
   - Add team to championship
-  - Edit stages
+  - Manage stages
+
+ADMIN/MANAGE TEAMS
+ Allows an admin to create teams (full name, city name, short name / Ex: Paris Saint-Germain FC, Paris, PSG)
+ The page list all of them. A click on a team shows a popup edit
+ A button "Add" allows to add a team
+
+ADMIN/ADD CHAMPIONSHIP
+ Allows an admin to create a championship, identified by its name. A "completed" can be added
+
+ADMIN/ADD TEAM TO CHAMPIONSHIP
+ When a championship is created, next step is to choose how many teams participate, then select the teams
+
+ADMIN/MANAGE STAGES
+ From the team list of a championship, compute number of stages and allows the admin to fill each stage
+ Each match of a stage must have a date
