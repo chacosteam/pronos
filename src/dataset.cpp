@@ -1,4 +1,5 @@
 #include "dataset.h"
+#include "exception.h"
 
 void
 dataset::parsedata(string s, char sep)
@@ -20,18 +21,20 @@ dataset::count()
 void
 dataset::readstring(string &value)
 {
-	if (it != (fields.end()) {
+	if (it != fields.end()) {
 		value = *it;
 		it++;
-	}
+	} else
+		throw dataset_exception();
 }
 
 void
 dataset::readint(int &value)
 {
-	if (it != (fields.end()) {
+	if (it != fields.end()) {
 		value = stoi(*it);
 		it++;
-	}
+	} else
+		throw dataset_exception();
 
 }
