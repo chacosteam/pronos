@@ -7,6 +7,7 @@ dataset::parsedata(string s, char sep)
 	stringstream ss(s);
 	string item;
 
+	fields.clear();
 	while(getline(ss, item, sep))
 		fields.push_back(item);	
 	it = fields.begin();

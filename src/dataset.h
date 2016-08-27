@@ -13,7 +13,6 @@ class dataset
 	vector<string> fields;
 	vector<string>::iterator it;
 
-	void parsedata(string s, char sep='\t');
 
 	public:
 	dataset()
@@ -26,6 +25,7 @@ class dataset
 		parsedata(s, sep);
 	}
 
+	void parsedata(string s, char sep='\t');
 	size_t count();
 	void readstring(string&);
 	void readint(int&);

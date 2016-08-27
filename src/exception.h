@@ -5,9 +5,7 @@
 
 using namespace std;
 
-struct dataset_exception : public exception
-{
-
-};
+struct dataset_exception : public exception { };
+struct datafile_exception : public exception { };
 
 #endif

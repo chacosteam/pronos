@@ -11,9 +11,11 @@ class storage
 		string folder;
 		string uid;
 	public:
-		storage(string, string);
-		string getFolder() const;
-		string getUid() const;
+		storage(string f, string u): folder(f), uid(u)
+		{
+		}
+		string getfolder() const;
+		string getuid() const;
 		//void moveTo(string);
 };
 

@@ -12,7 +12,7 @@ using namespace std;
 
 class datafile
 {
-	private:
+	protected:
 		shared_ptr<storage> datastore;
 		string name;
 		char field_sep;
@@ -25,8 +25,9 @@ class datafile
 		datafile(shared_ptr<storage> s, string n, char f='\t', char l='\n'):
 			datastore(s), name(n), field_sep(f), line_sep(l)
 		{
+			open();
 		}
-		~datafile()
+		virtual ~datafile()
 		{
 			if (is.is_open())
 				close();
