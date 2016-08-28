@@ -33,3 +33,9 @@ datafile::readNext()
 
 	return ds;
 }
+
+void
+datafile::addData(dataset ds)
+{
+	lines.push_back(ds);
+}
